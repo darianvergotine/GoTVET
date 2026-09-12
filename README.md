@@ -65,27 +65,6 @@ After setup, start **GoTVET**. The desktop window and the localhost website open
 
 ---
 
-## Develop
-
-```powershell
-dotnet run --project src/GoTVET.Web/GoTVET.Web.csproj
-dotnet run --project src/GoTVET/GoTVET.csproj
-```
-
-Build a new Setup file:
-
-```powershell
-powershell -File installer/build.ps1
-```
-
-```text
-src/
-├── GoTVET/          Windows WPF client
-└── GoTVET.Web/      Razor catalogue + download API
-```
-
----
-
 <div align="center">
 
 **Created by Darian Vergotine**
