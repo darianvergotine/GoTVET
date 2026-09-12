@@ -1,0 +1,169 @@
+<Window x:Class="GoTVET.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GoTVET — Free TVET Past Papers"
+        Height="760"
+        Width="1180"
+        MinHeight="640"
+        MinWidth="960"
+        WindowStartupLocation="CenterScreen">
+  <DockPanel>
+    <Border DockPanel.Dock="Top" Background="{StaticResource BrandGreen}" Padding="22,16">
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+          <StackPanel Orientation="Horizontal">
+            <Border Width="36" Height="36" CornerRadius="8" Background="{StaticResource BrandGold}" Margin="0,0,12,0">
+              <TextBlock Text="G" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{StaticResource BrandGreenDark}"/>
+            </Border>
+            <StackPanel>
+              <TextBlock Text="GoTVET" FontSize="22" FontWeight="Bold" Foreground="White"/>
+              <TextBlock Text="Free past papers for South African TVET students" Foreground="#D9F3E8" FontSize="13"/>
+            </StackPanel>
+          </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+          <Button Content="Refresh library" Style="{StaticResource PrimaryButton}"
+                  Background="{StaticResource BrandGold}" Foreground="{StaticResource BrandGreenDark}"
+                  Command="{Binding RefreshCommand}"/>
+          <Button Content="Open GoTVET website" Style="{StaticResource GhostButton}"
+                  Foreground="White" Command="{Binding OpenWebsiteCommand}"/>
+        </StackPanel>
+      </Grid>
+    </Border>
+
+    <Border DockPanel.Dock="Bottom" Background="White" BorderBrush="{StaticResource Line}" BorderThickness="0,1,0,0" Padding="18,10">
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="220"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="{Binding Status}" TextWrapping="Wrap" Foreground="{StaticResource Muted}"/>
+        <ProgressBar Grid.Column="1" Height="8" Minimum="0" Maximum="1"
+                     Value="{Binding DownloadProgress, Mode=OneWay}"
+                     Visibility="{Binding IsBusy, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+      </Grid>
+    </Border>
+
+    <Grid Margin="18">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="160"/>
+      </Grid.RowDefinitions>
+
+      <Border Background="{StaticResource Card}" CornerRadius="12" Padding="16" BorderBrush="{StaticResource Line}" BorderThickness="1">
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+          </Grid.ColumnDefinitions>
+          <TextBox Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                   ToolTip="Search by subject, for example Mathematics N2 or Computer Practice"/>
+          <TextBlock Grid.Column="0" Text="Search subjects, levels or file names"
+                     Foreground="{StaticResource Muted}" Margin="14,0,0,0" VerticalAlignment="Center"
+                     IsHitTestVisible="False">
+            <TextBlock.Style>
+              <Style TargetType="TextBlock">
+                <Setter Property="Visibility" Value="Collapsed"/>
+                <Style.Triggers>
+                  <DataTrigger Binding="{Binding SearchText}" Value="">
+                    <Setter Property="Visibility" Value="Visible"/>
+                  </DataTrigger>
+                </Style.Triggers>
+              </Style>
+            </TextBlock.Style>
+          </TextBlock>
+          <Button Grid.Column="1" Content="Download selected" Style="{StaticResource PrimaryButton}"
+                  Command="{Binding DownloadSelectedCommand}" Margin="12,0,0,0"/>
+        </Grid>
+      </Border>
+
+      <WrapPanel Grid.Row="1" Margin="0,12,0,8">
+        <ComboBox ItemsSource="{Binding Programmes}" SelectedItem="{Binding SelectedProgramme}"/>
+        <ComboBox ItemsSource="{Binding Levels}" SelectedItem="{Binding SelectedLevel}"/>
+        <ComboBox ItemsSource="{Binding Fields}" SelectedItem="{Binding SelectedField}"/>
+        <ComboBox ItemsSource="{Binding Years}" SelectedItem="{Binding SelectedYear}"/>
+        <ComboBox ItemsSource="{Binding Sessions}" SelectedItem="{Binding SelectedSession}"/>
+        <ComboBox ItemsSource="{Binding Types}" SelectedItem="{Binding SelectedType}"/>
+        <TextBlock VerticalAlignment="Center" Margin="4,0,16,8" Foreground="{StaticResource Muted}"
+                   Text="{Binding ResultSummary}"/>
+      </WrapPanel>
+
+      <Grid Grid.Row="2">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+
+        <ListView ItemsSource="{Binding PapersView}"
+                  SelectedItem="{Binding SelectedPaper}"
+                  BorderBrush="{StaticResource Line}"
+                  BorderThickness="1"
+                  MouseDoubleClick="Papers_OnMouseDoubleClick"
+                  VirtualizingPanel.IsVirtualizing="True"
+                  VirtualizingPanel.VirtualizationMode="Recycling">
+          <ListView.View>
+            <GridView>
+              <GridViewColumn Header="Subject" Width="260" DisplayMemberBinding="{Binding Subject}"/>
+              <GridViewColumn Header="Programme" Width="150" DisplayMemberBinding="{Binding Programme}"/>
+              <GridViewColumn Header="Level" Width="70" DisplayMemberBinding="{Binding Level}"/>
+              <GridViewColumn Header="Year" Width="70" DisplayMemberBinding="{Binding Year}"/>
+              <GridViewColumn Header="Session" Width="110" DisplayMemberBinding="{Binding Session}"/>
+              <GridViewColumn Header="Type" Width="130" DisplayMemberBinding="{Binding DocumentType}"/>
+              <GridViewColumn Header="Language" Width="120" DisplayMemberBinding="{Binding Language}"/>
+            </GridView>
+          </ListView.View>
+        </ListView>
+
+        <Border Grid.Column="1" Margin="12,0,0,0" Background="{StaticResource Card}" CornerRadius="12"
+                BorderBrush="{StaticResource Line}" BorderThickness="1" Padding="16">
+          <StackPanel>
+            <TextBlock Text="Selected paper" FontWeight="SemiBold" Margin="0,0,0,8"/>
+            <TextBlock Text="{Binding SelectedPaper.Title}" TextWrapping="Wrap" FontSize="16" FontWeight="SemiBold"/>
+            <TextBlock Margin="0,8,0,0" Foreground="{StaticResource Muted}" TextWrapping="Wrap">
+              <Run Text="{Binding SelectedPaper.Field, Mode=OneWay}"/>
+              <Run Text=" · "/>
+              <Run Text="{Binding SelectedPaper.Source, Mode=OneWay}"/>
+            </TextBlock>
+            <TextBlock Margin="0,8,0,16" Text="{Binding SelectedPaper.FileName}" TextWrapping="Wrap" Foreground="{StaticResource Muted}"/>
+            <Button Content="Download free PDF / file" Style="{StaticResource PrimaryButton}"
+                    Command="{Binding DownloadCommand}" CommandParameter="{Binding SelectedPaper}"
+                    HorizontalAlignment="Stretch" Margin="0,0,0,8"/>
+            <Button Content="Open on website" Style="{StaticResource GhostButton}"
+                    Command="{Binding OpenSourceCommand}" CommandParameter="{Binding SelectedPaper}"
+                    HorizontalAlignment="Stretch" Margin="0,0,0,8"/>
+            <Button Content="Open downloads folder" Style="{StaticResource GhostButton}"
+                    Command="{Binding OpenFolderCommand}" HorizontalAlignment="Stretch"/>
+            <TextBlock Margin="0,16,0,0" FontSize="12" Foreground="{StaticResource Muted}" TextWrapping="Wrap"
+                       Text="{Binding CatalogSource}"/>
+            <TextBlock Margin="0,8,0,0" FontSize="12" Foreground="{StaticResource Muted}" TextWrapping="Wrap"
+                       Text="Papers are stored on the GoTVET website. This app is not connected to DHET servers."/>
+          </StackPanel>
+        </Border>
+      </Grid>
+
+      <DockPanel Grid.Row="3" Margin="0,12,0,0">
+        <TextBlock DockPanel.Dock="Top" Text="Recent downloads" FontWeight="SemiBold" Margin="0,0,0,8"/>
+        <ListBox ItemsSource="{Binding RecentDownloads}" BorderBrush="{StaticResource Line}">
+          <ListBox.ItemTemplate>
+            <DataTemplate>
+              <Grid Margin="0,4">
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="*"/>
+                  <ColumnDefinition Width="140"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{Binding Paper.Title}" TextTrimming="CharacterEllipsis"/>
+                <TextBlock Grid.Column="1" Text="{Binding Status}" Foreground="{StaticResource BrandGreenDark}"/>
+              </Grid>
+            </DataTemplate>
+          </ListBox.ItemTemplate>
+        </ListBox>
+      </DockPanel>
+    </Grid>
+  </DockPanel>
+</Window>

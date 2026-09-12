@@ -1,0 +1,37 @@
+@page "/papers/{id}"
+@model GoTVET.Web.Pages.PaperDetailsModel
+@{
+    ViewData["Title"] = Model.Paper!.Title;
+}
+
+<section class="page-hero">
+    <div class="container">
+        <p class="eyebrow">@Model.Paper.Programme · @Model.Paper.Level</p>
+        <h1>@Model.Paper.Subject</h1>
+        <p class="lead">@Model.Paper.DocumentType · @Model.Paper.Session @Model.Paper.Year · @Model.Paper.Language</p>
+        <div class="hero-actions">
+            <a class="button primary" href="@Model.Paper.DownloadUrl">Download PDF</a>
+            <a class="button ghost" href="/papers">Back to papers</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container detail-grid">
+        <article class="detail-card">
+            <h2>File details</h2>
+            <dl>
+                <div><dt>Subject</dt><dd>@Model.Paper.Subject</dd></div>
+                <div><dt>Level</dt><dd>@Model.Paper.Level</dd></div>
+                <div><dt>Field</dt><dd>@Model.Paper.Field</dd></div>
+                <div><dt>Session</dt><dd>@Model.Paper.Session @Model.Paper.Year</dd></div>
+                <div><dt>Type</dt><dd>@Model.Paper.DocumentType</dd></div>
+                <div><dt>File</dt><dd>@Model.Paper.FileName</dd></div>
+            </dl>
+        </article>
+        <aside class="detail-card">
+            <h2>Hosted by GoTVET</h2>
+            <p>This file is stored on the GoTVET server. The same download is used by the website and the Windows app.</p>
+        </aside>
+    </div>
+</section>

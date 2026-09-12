@@ -1,0 +1,48 @@
+@page
+@model GoTVET.Web.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<section class="hero">
+    <div class="container hero-grid">
+        <div>
+            <p class="eyebrow">South African TVET students</p>
+            <h1>Download past papers for free.</h1>
+            <p class="lead">GoTVET stores question papers and memoranda on its own server. Browse on your phone, tablet or computer, or sync the Windows app to the same library.</p>
+            <div class="hero-actions">
+                <a class="button primary" href="/papers">Browse papers</a>
+                <a class="button ghost" href="/app">Get the desktop app</a>
+            </div>
+        </div>
+        <aside class="hero-card">
+            <p class="stat">@Model.PaperCount</p>
+            <p>papers in the test library</p>
+            <ul>
+                @foreach (var subject in Model.Subjects)
+                {
+                    <li>@subject · Levels @string.Join(", ", Model.Levels)</li>
+                }
+            </ul>
+        </aside>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-head">
+            <h2>Placeholder subjects</h2>
+            <p>These subjects are here for the first test run. More will be added when the full list is ready.</p>
+        </div>
+        <div class="card-grid">
+            @foreach (var subject in Model.Subjects)
+            {
+                <a class="subject-card" href="/papers?subject=@Uri.EscapeDataString(subject)">
+                    <h3>@subject</h3>
+                    <p>NC(V) Level 2 to Level 4 · Question papers and memoranda</p>
+                    <span>View papers</span>
+                </a>
+            }
+        </div>
+    </div>
+</section>

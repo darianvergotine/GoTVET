@@ -1,0 +1,121 @@
+@page
+@model GoTVET.Web.Pages.PapersModel
+@{
+    ViewData["Title"] = "Papers";
+}
+
+<section class="page-hero">
+    <div class="container">
+        <p class="eyebrow">GoTVET library</p>
+        <h1>Past papers</h1>
+        <p class="lead">Filter by subject and level, then download the PDF from the GoTVET server.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <form class="filters" method="get">
+            <label>
+                Search
+                <input type="search" name="q" value="@Model.Query" placeholder="Mathematics, English…" />
+            </label>
+            <label>
+                Subject
+                <select name="subject">
+                    @if (Model.Subject == "all")
+                    {
+                        <option value="all" selected>All subjects</option>
+                    }
+                    else
+                    {
+                        <option value="all">All subjects</option>
+                    }
+                    @foreach (var subject in Model.Subjects)
+                    {
+                        if (Model.Subject == subject)
+                        {
+                            <option value="@subject" selected>@subject</option>
+                        }
+                        else
+                        {
+                            <option value="@subject">@subject</option>
+                        }
+                    }
+                </select>
+            </label>
+            <label>
+                Level
+                <select name="level">
+                    @if (Model.Level == "all")
+                    {
+                        <option value="all" selected>All levels</option>
+                    }
+                    else
+                    {
+                        <option value="all">All levels</option>
+                    }
+                    @foreach (var level in new[] { "L2", "L3", "L4" })
+                    {
+                        if (Model.Level == level)
+                        {
+                            <option value="@level" selected>@level</option>
+                        }
+                        else
+                        {
+                            <option value="@level">@level</option>
+                        }
+                    }
+                </select>
+            </label>
+            <label>
+                Type
+                <select name="type">
+                    @if (Model.Type == "all")
+                    {
+                        <option value="all" selected>All types</option>
+                    }
+                    else
+                    {
+                        <option value="all">All types</option>
+                    }
+                    @if (Model.Type == "Question Paper")
+                    {
+                        <option value="Question Paper" selected>Question Paper</option>
+                    }
+                    else
+                    {
+                        <option value="Question Paper">Question Paper</option>
+                    }
+                    @if (Model.Type == "Memorandum")
+                    {
+                        <option value="Memorandum" selected>Memorandum</option>
+                    }
+                    else
+                    {
+                        <option value="Memorandum">Memorandum</option>
+                    }
+                </select>
+            </label>
+            <button class="button primary" type="submit">Apply</button>
+        </form>
+
+        <p class="result-count">@Model.Papers.Count papers</p>
+        <div class="paper-list">
+            @foreach (var paper in Model.Papers)
+            {
+                <article class="paper-card">
+                    <div>
+                        <p class="meta">@paper.Programme · @paper.Level · @paper.Session @paper.Year</p>
+                        <h2><a href="/papers/@paper.Id">@paper.Subject</a></h2>
+                        <p>@paper.DocumentType · @paper.Language</p>
+                    </div>
+                    <a class="button primary" href="@paper.DownloadUrl">Download</a>
+                </article>
+            }
+            @if (Model.Papers.Count == 0)
+            {
+                <p class="empty">No papers match those filters yet.</p>
+            }
+        </div>
+    </div>
+</section>

@@ -1,0 +1,58 @@
+@using GoTVET.Web
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@(ViewData["Title"] is string title ? $"{title} · GoTVET" : "GoTVET")</title>
+    <meta name="description" content="Free TVET past papers for South African students. Download NC(V) and NATED papers from the GoTVET library." />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="container header-row">
+            <a class="brand" href="/">
+                <span class="brand-mark">G</span>
+                <span>
+                    <strong>GoTVET</strong>
+                    <small>Free TVET past papers</small>
+                </span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+            <nav id="site-nav" class="site-nav">
+                <a href="/" class="@(ViewContext.RouteData.Values["page"]?.ToString() == "/Index" ? "active" : null)">Home</a>
+                <a href="/papers" class="@(ViewContext.RouteData.Values["page"]?.ToString()?.StartsWith("/Papers") == true ? "active" : null)">Papers</a>
+                <a href="/app" class="@(ViewContext.RouteData.Values["page"]?.ToString() == "/App" ? "active" : null)">Desktop app</a>
+                <a href="/about" class="@(ViewContext.RouteData.Values["page"]?.ToString() == "/About" ? "active" : null)">About</a>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        @RenderBody()
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <strong>GoTVET</strong>
+                <p>A free library of TVET past papers for South African students. Papers are stored on the GoTVET server and can be downloaded from this website or the desktop app.</p>
+            </div>
+            <div>
+                <strong>Library</strong>
+                <a href="/papers">Browse papers</a>
+                <a href="/app">Windows app</a>
+                <a href="/about">How it works</a>
+            </div>
+        </div>
+        <p class="container fine-print">GoTVET hosts its own paper library. It is not connected to DHET servers.</p>
+    </footer>
+    <script>
+        const toggle = document.querySelector('.nav-toggle');
+        const nav = document.getElementById('site-nav');
+        toggle?.addEventListener('click', () => {
+            const open = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', String(open));
+        });
+    </script>
+</body>
+</html>

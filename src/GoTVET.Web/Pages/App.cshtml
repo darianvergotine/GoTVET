@@ -1,0 +1,24 @@
+@page
+@{
+    ViewData["Title"] = "Desktop app";
+}
+
+<section class="page-hero">
+    <div class="container">
+        <p class="eyebrow">Windows</p>
+        <h1>The GoTVET desktop app</h1>
+        <p class="lead">The PC software reads the catalogue from this website and downloads papers from the GoTVET server. It is not connected to DHET.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container prose">
+        <h2>How it works</h2>
+        <ol>
+            <li>This website keeps the list of papers and the PDF files.</li>
+            <li>The Windows app asks <code>/api/catalog</code> for the current list.</li>
+            <li>When you download a paper, the app saves the file from <code>/api/papers/{id}/download</code> into Documents\GoTVET\Past Papers.</li>
+        </ol>
+        <p>Start this website, then open the GoTVET Windows app and choose Refresh library.</p>
+    </div>
+</section>

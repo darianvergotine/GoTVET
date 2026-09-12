@@ -1,0 +1,6 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+src/GoTVET.Web/storage/
