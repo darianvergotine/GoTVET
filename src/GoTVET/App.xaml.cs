@@ -4,7 +4,7 @@ using System.Windows;
 
 namespace GoTVET;
 
-public partial class App : Application
+public partial class App : System.Windows.Application
 {
     public static MainViewModel ViewModel { get; private set; } = null!;
 
@@ -23,6 +23,7 @@ public partial class App : Application
         http.DefaultRequestHeaders.UserAgent.ParseAdd("GoTVET/1.0 (Windows; GoTVET library)");
 
         ViewModel = new MainViewModel(new CatalogService(http), new DownloadService(http));
+        ThemeService.Load();
         base.OnStartup(e);
     }
 

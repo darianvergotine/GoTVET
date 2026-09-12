@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>@(ViewData["Title"] is string title ? $"{title} · GoTVET" : "GoTVET")</title>
     <meta name="description" content="Free TVET past papers for South African students. Download NC(V) and NATED papers from the GoTVET library." />
+    <link rel="icon" href="~/favicon.ico" type="image/x-icon" asp-append-version="true" />
+    <link rel="icon" href="~/favicon.png" type="image/png" sizes="32x32" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <script src="~/js/theme.js" asp-append-version="true"></script>
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -26,6 +29,12 @@
                 <a href="/app" class="@(ViewContext.RouteData.Values["page"]?.ToString() == "/App" ? "active" : null)">Desktop app</a>
                 <a href="/about" class="@(ViewContext.RouteData.Values["page"]?.ToString() == "/About" ? "active" : null)">About</a>
             </nav>
+            <div class="theme-picker" title="Change the site colour">
+                <span class="theme-picker-label">Colour</span>
+                <div id="theme-presets" class="theme-swatches"></div>
+                <input id="theme-color" type="color" value="#0f6b4c" aria-label="Pick any colour" />
+                <button id="theme-reset" class="theme-reset" type="button">Reset</button>
+            </div>
         </div>
     </header>
     <main id="main">
