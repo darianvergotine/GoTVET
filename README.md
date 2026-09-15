@@ -11,7 +11,7 @@
 [![.NET](https://img.shields.io/badge/.NET-10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](#)
 [![Windows](https://img.shields.io/badge/Windows-WPF-0f6b4c?style=for-the-badge&logo=windows&logoColor=white)](#)
 [![Website](https://img.shields.io/badge/website-live-d4a017?style=for-the-badge)](https://darianvergotine.github.io/GoTVET/)
-[![Version](https://img.shields.io/badge/version-1.2.0-0a4d38?style=for-the-badge)](#)
+[![Version](https://img.shields.io/badge/version-1.3.0-0a4d38?style=for-the-badge)](#)
 
 </div>
 
@@ -19,9 +19,7 @@
 
 GoTVET is a free library for **National Certificate (Vocational)** past papers. Open the website on a phone, tablet or computer — no login and no payment.
 
-The public site is always on at **[darianvergotine.github.io/GoTVET](https://darianvergotine.github.io/GoTVET/)**.
-
-The Windows app can still run a local copy of the library at `http://127.0.0.1:5088` after you install it.
+The public site is always on at **[darianvergotine.github.io/GoTVET](https://darianvergotine.github.io/GoTVET/)**. The Windows app connects to that same live library when it starts.
 
 <table>
   <tr>
@@ -40,7 +38,7 @@ The Windows app can still run a local copy of the library at `http://127.0.0.1:5
 | Device | What to open |
 |:--|:--|
 | Phone, tablet, school PC, any browser | [https://darianvergotine.github.io/GoTVET/](https://darianvergotine.github.io/GoTVET/) |
-| Windows desktop app | `dist/GoTVET-Setup-1.2.0.exe` — launches the app and local website together |
+| Windows desktop app | `dist/GoTVET-Setup-1.3.0.exe` — launches the app and opens the live website |
 
 ---
 

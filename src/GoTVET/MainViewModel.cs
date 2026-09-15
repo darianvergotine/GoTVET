@@ -243,7 +243,7 @@ public sealed class MainViewModel : INotifyPropertyChanged
             var snapshot = await _catalogService.RefreshAsync(progress, _refreshCts.Token).ConfigureAwait(true);
             ApplySnapshot(snapshot);
             Status = snapshot.Papers.Count == 0
-                ? "The GoTVET library is empty. Start the website and refresh again."
+                ? "The GoTVET library is empty. Check your internet connection and refresh again."
                 : $"Catalogue updated from {snapshot.Source}.";
         }
         catch (OperationCanceledException)
@@ -252,7 +252,7 @@ public sealed class MainViewModel : INotifyPropertyChanged
         }
         catch (Exception exception)
         {
-            Status = "Could not reach the GoTVET website. Start GoTVET.Web and try Refresh library. " + exception.Message;
+            Status = "Could not reach the GoTVET website. Check your internet connection and try Refresh library. " + exception.Message;
         }
         finally
         {
@@ -264,15 +264,6 @@ public sealed class MainViewModel : INotifyPropertyChanged
     {
         if (paper is null)
         {
-            return;
-        }
-
-        if (string.IsNullOrWhiteSpace(paper.DownloadUrl))
-        {
-            DownloadService.OpenUrl(string.IsNullOrWhiteSpace(paper.BrowseUrl)
-                ? _catalogService.WebsiteUrl
-                : paper.BrowseUrl);
-            Status = "Opened this paper on the GoTVET website.";
             return;
         }
 

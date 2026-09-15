@@ -1,0 +1,49 @@
+<Window x:Class="GoTVET.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About GoTVET"
+        Icon="GoTVET-icon.ico"
+        Height="520"
+        Width="560"
+        MinHeight="440"
+        MinWidth="480"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"
+        Background="{DynamicResource Paper}">
+  <DockPanel Margin="24">
+    <Button DockPanel.Dock="Bottom" Content="Close" Style="{StaticResource PrimaryButton}"
+            HorizontalAlignment="Right" Margin="0,16,0,0" IsDefault="True" IsCancel="True"
+            Click="Close_OnClick"/>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+      <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
+          <Border Width="48" Height="48" CornerRadius="10" Background="{DynamicResource BrandGold}" Margin="0,0,14,0">
+            <TextBlock Text="G" FontWeight="Bold" FontSize="26" HorizontalAlignment="Center"
+                       VerticalAlignment="Center" Foreground="{DynamicResource BrandOnGold}"/>
+          </Border>
+          <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="GoTVET" FontSize="24" FontWeight="Bold"/>
+            <TextBlock Text="Free NC(V) past papers" Foreground="{DynamicResource Muted}"/>
+          </StackPanel>
+        </StackPanel>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,12"
+                   Text="GoTVET is a free library for South African TVET students. It helps you find and download National Certificate (Vocational) past papers without logging in or paying."/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,12"
+                   Text="The catalogue follows the DHET NC(V) subject matrix for Levels 2, 3 and 4: fundamental subjects for every student, plus the core and optional vocational subjects for each programme."/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,12"
+                   Text="Past papers cover February and November from 2011 to 2026. Each sitting includes a question paper and a memorandum. The app reads the live GoTVET website at https://darianvergotine.github.io/GoTVET/."/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,16" Foreground="{DynamicResource Muted}"
+                   Text="Papers are hosted by GoTVET. This app is not connected to DHET servers."/>
+        <Border Background="{DynamicResource Card}" BorderBrush="{DynamicResource Line}"
+                BorderThickness="1" CornerRadius="10" Padding="14">
+          <StackPanel>
+            <TextBlock Text="Created by" FontSize="12" Foreground="{DynamicResource Muted}"/>
+            <TextBlock Text="Darian Vergotine" FontSize="18" FontWeight="SemiBold" Margin="0,4,0,0"/>
+            <TextBlock Text="Version 1.3.0" Margin="0,8,0,0" Foreground="{DynamicResource Muted}"/>
+          </StackPanel>
+        </Border>
+      </StackPanel>
+    </ScrollViewer>
+  </DockPanel>
+</Window>

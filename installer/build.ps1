@@ -1,5 +1,5 @@
 param(
-    [string]$Version = "1.0.0",
+    [string]$Version = "1.3.0",
     [string]$Configuration = "Release"
 )
 
@@ -18,6 +18,10 @@ $compilerOut = Join-Path $workRoot "dist"
 
 if (-not (Test-Path -LiteralPath $project)) {
     throw "GoTVET project not found: $project"
+}
+
+if (Test-Path -LiteralPath $publishDir) {
+    Remove-Item -LiteralPath $publishDir -Recurse -Force
 }
 
 New-Item -ItemType Directory -Force -Path $publishDir, $outputDir, $toolsDir, $issWorkDir, $compilerOut | Out-Null

@@ -12,8 +12,9 @@ public sealed class CatalogService
 
     private readonly HttpClient _http;
     private readonly string _cachePath;
+    private readonly string _offeringsCachePath;
 
-    public string WebsiteUrl => (_http.BaseAddress?.ToString() ?? "http://127.0.0.1:5088/").TrimEnd('/');
+    public string WebsiteUrl => (_http.BaseAddress?.ToString() ?? "https://darianvergotine.github.io/GoTVET/").TrimEnd('/');
 
     public CatalogService(HttpClient http)
     {
@@ -23,10 +24,26 @@ public sealed class CatalogService
             "GoTVET");
         Directory.CreateDirectory(folder);
         _cachePath = Path.Combine(folder, "gotvet-catalog.json");
+        _offeringsCachePath = Path.Combine(folder, "gotvet-offerings.json");
     }
 
     public CatalogSnapshot LoadLocal()
     {
+        if (File.Exists(_offeringsCachePath))
+        {
+            try
+            {
+                var cached = JsonSerializer.Deserialize<OfferingCatalog>(File.ReadAllText(_offeringsCachePath), JsonOptions);
+                if (cached?.Offerings.Count > 0)
+                {
+                    return LiveCatalog.Expand(cached, WebsiteUrl);
+                }
+            }
+            catch (JsonException)
+            {
+            }
+        }
+
         if (File.Exists(_cachePath))
         {
             try
@@ -53,6 +70,24 @@ public sealed class CatalogService
     public async Task<CatalogSnapshot> RefreshAsync(IProgress<string>? progress, CancellationToken cancellationToken)
     {
         progress?.Report("Connecting to the GoTVET library…");
+
+        using var offeringsResponse = await _http.GetAsync("data/offerings.json", cancellationToken).ConfigureAwait(false);
+        if (offeringsResponse.IsSuccessStatusCode)
+        {
+            await using var offeringsStream = await offeringsResponse.Content.ReadAsStreamAsync(cancellationToken)
+                .ConfigureAwait(false);
+            var offerings = await JsonSerializer.DeserializeAsync<OfferingCatalog>(offeringsStream, JsonOptions, cancellationToken)
+                            .ConfigureAwait(false)
+                            ?? new OfferingCatalog();
+            if (offerings.Offerings.Count > 0)
+            {
+                var json = JsonSerializer.Serialize(offerings, JsonOptions);
+                await File.WriteAllTextAsync(_offeringsCachePath, json, cancellationToken).ConfigureAwait(false);
+                return LiveCatalog.Expand(offerings, WebsiteUrl);
+            }
+        }
+
+        progress?.Report("Reading the GoTVET catalogue…");
         using var response = await _http.GetAsync("api/catalog", cancellationToken).ConfigureAwait(false);
         response.EnsureSuccessStatusCode();
         await using var stream = await response.Content.ReadAsStreamAsync(cancellationToken).ConfigureAwait(false);

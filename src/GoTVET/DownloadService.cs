@@ -24,9 +24,9 @@ public sealed class DownloadService
         CancellationToken cancellationToken)
     {
         Directory.CreateDirectory(DownloadFolder);
-        if (string.IsNullOrWhiteSpace(paper.DownloadUrl))
+        if (!IsRemoteFile(paper.DownloadUrl))
         {
-            throw new InvalidOperationException("This paper has no file yet. Open it on the GoTVET website.");
+            return SaveLocalPlaceholder(paper, progress);
         }
 
         var destination = UniquePath(Path.Combine(DownloadFolder, SafeFileName(paper)));
@@ -77,6 +77,21 @@ public sealed class DownloadService
     {
         Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
     }
+
+    private string SaveLocalPlaceholder(PastPaper paper, IProgress<double>? progress)
+    {
+        var destination = UniquePath(Path.Combine(DownloadFolder, SafeFileName(paper)));
+        var heading = $"NC(V) {paper.Subject} {paper.Level}";
+        var details = $"{paper.Programme} · {paper.Field} · {paper.DocumentType} · {paper.Session} {paper.Year}";
+        File.WriteAllBytes(destination, PlaceholderPdf.Create(heading, details));
+        progress?.Report(1);
+        return destination;
+    }
+
+    private static bool IsRemoteFile(string? url) =>
+        !string.IsNullOrWhiteSpace(url) &&
+        url.StartsWith("http", StringComparison.OrdinalIgnoreCase) &&
+        url.Contains("/api/papers/", StringComparison.OrdinalIgnoreCase);
 
     public void OpenDownloadFolder()
     {

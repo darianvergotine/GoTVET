@@ -10,6 +10,9 @@ public partial class App : System.Windows.Application
 
     protected override void OnStartup(StartupEventArgs e)
     {
+        var apiBaseUrl = ReadApiBaseUrl();
+        DownloadService.OpenUrl(apiBaseUrl.TrimEnd('/'));
+
         var handler = new HttpClientHandler
         {
             AutomaticDecompression = DecompressionMethods.All,
@@ -17,10 +20,10 @@ public partial class App : System.Windows.Application
         };
         var http = new HttpClient(handler)
         {
-            BaseAddress = new Uri(ReadApiBaseUrl()),
+            BaseAddress = new Uri(apiBaseUrl),
             Timeout = TimeSpan.FromMinutes(8)
         };
-        http.DefaultRequestHeaders.UserAgent.ParseAdd("GoTVET/1.0 (Windows; GoTVET library)");
+        http.DefaultRequestHeaders.UserAgent.ParseAdd("GoTVET/1.3 (Windows; GoTVET library)");
 
         ViewModel = new MainViewModel(new CatalogService(http), new DownloadService(http));
         ThemeService.Load();
@@ -43,6 +46,6 @@ public partial class App : System.Windows.Application
             }
         }
 
-        return "http://127.0.0.1:5088/";
+        return "https://darianvergotine.github.io/GoTVET/";
     }
 }
