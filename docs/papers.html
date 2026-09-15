@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papers · GoTVET</title>
+  <meta name="description" content="Filter and download NC(V) past papers from the GoTVET library." />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="favicon.png" type="image/png" sizes="32x32" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="site-header"></header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">GoTVET library</p>
+        <h1>Past papers</h1>
+        <p class="lead">Filter by programme, subject, year and session, then download the PDF on any device.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <form class="filters" id="filters" method="get">
+          <label>Search <input type="search" name="q" placeholder="Mathematics, Hospitality, Robotics…" /></label>
+          <label>Programme <select id="programme" name="programme"></select></label>
+          <label>Subject <select id="subject" name="subject"></select></label>
+          <label>Level <select id="level" name="level"></select></label>
+          <label>Year <select id="year" name="year"></select></label>
+          <label>Session <select id="session" name="session"></select></label>
+          <label>Type <select id="type" name="type"></select></label>
+          <button class="button primary" type="submit">Apply</button>
+        </form>
+        <p class="result-count" id="result-count">Loading papers…</p>
+        <div class="paper-list" id="paper-list"></div>
+        <nav class="pager" id="pager"></nav>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/theme.js"></script>
+  <script src="js/chrome.js"></script>
+  <script src="js/library.js"></script>
+  <script>
+    mountChrome("papers");
+    GoTVETLibrary.renderPapers();
+  </script>
+</body>
+</html>

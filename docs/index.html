@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoTVET · Free NC(V) past papers</title>
+  <meta name="description" content="Free TVET past papers for South African students. Browse NC(V) Levels 2–4 from any phone, tablet or computer." />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="favicon.png" type="image/png" sizes="32x32" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="site-header"></header>
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">South African TVET students</p>
+          <h1>Download past papers for free.</h1>
+          <p class="lead">GoTVET stores NC(V) Level 2, 3 and 4 question papers and memoranda from 2011 to 2026. Open this site on any phone, tablet or computer.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="papers.html">Browse papers</a>
+            <a class="button ghost" href="app.html">Get the desktop app</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <p class="stat" id="paper-count">…</p>
+          <p>papers in the NC(V) library</p>
+          <ul>
+            <li id="programme-count">programmes</li>
+            <li id="subject-count">subjects</li>
+            <li>Levels L2, L3, L4</li>
+            <li>February and November · 2011–2026</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>NC(V) programmes</h2>
+          <p>Subjects follow the DHET National Certificate (Vocational) matrix for Levels 2, 3 and 4, including fundamentals, core and optional vocational subjects.</p>
+        </div>
+        <div class="card-grid" id="programme-grid"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/theme.js"></script>
+  <script src="js/chrome.js"></script>
+  <script src="js/library.js"></script>
+  <script>
+    mountChrome("home");
+    GoTVETLibrary.renderHome();
+  </script>
+</body>
+</html>

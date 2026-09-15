@@ -6,28 +6,22 @@
 
 **Free NC(V) past papers for South African TVET students.**
 
+**Live website:** [https://darianvergotine.github.io/GoTVET/](https://darianvergotine.github.io/GoTVET/)
+
 [![.NET](https://img.shields.io/badge/.NET-10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](#)
 [![Windows](https://img.shields.io/badge/Windows-WPF-0f6b4c?style=for-the-badge&logo=windows&logoColor=white)](#)
-[![Version](https://img.shields.io/badge/version-1.2.0-d4a017?style=for-the-badge)](#)
-[![Licence](https://img.shields.io/badge/free-for%20students-0a4d38?style=for-the-badge)](#)
-
-<br>
-
-```text
- ╔══════════════════════════════════════════════╗
- ║   G o T V E T                                ║
- ║   National Certificate (Vocational) library  ║
- ║   Levels 2 · 3 · 4   ·   2011 – 2026         ║
- ╚══════════════════════════════════════════════╝
-```
+[![Website](https://img.shields.io/badge/website-live-d4a017?style=for-the-badge)](https://darianvergotine.github.io/GoTVET/)
+[![Version](https://img.shields.io/badge/version-1.2.0-0a4d38?style=for-the-badge)](#)
 
 </div>
 
 ---
 
-GoTVET is a Windows desktop app with a bundled website. It helps students **find and download** National Certificate (Vocational) past papers — no login, no paywall.
+GoTVET is a free library for **National Certificate (Vocational)** past papers. Open the website on a phone, tablet or computer — no login and no payment.
 
-The catalogue follows the DHET NC(V) subject matrix: fundamentals for every student, plus the core and optional vocational subjects for each programme. Each sitting includes a **question paper** and a **memorandum**.
+The public site is always on at **[darianvergotine.github.io/GoTVET](https://darianvergotine.github.io/GoTVET/)**.
+
+The Windows app can still run a local copy of the library at `http://127.0.0.1:5088` after you install it.
 
 <table>
   <tr>
@@ -41,27 +35,34 @@ The catalogue follows the DHET NC(V) subject matrix: fundamentals for every stud
 
 ---
 
-## Highlights
+## Use it
 
-|  |  |
+| Device | What to open |
 |:--|:--|
-| **Desktop + website** | Launch GoTVET and the local library opens together at `http://127.0.0.1:5088`. |
-| **Search & filter** | Browse by programme, subject, level, year, or session. |
-| **Downloads** | Save papers to *Documents\GoTVET\Past Papers*. |
-| **Your colour** | Pick any accent colour in the app or on the website. |
-| **Installer** | One Setup.exe — no Visual Studio required on the student’s PC. |
+| Phone, tablet, school PC, any browser | [https://darianvergotine.github.io/GoTVET/](https://darianvergotine.github.io/GoTVET/) |
+| Windows desktop app | `dist/GoTVET-Setup-1.2.0.exe` — launches the app and local website together |
 
 ---
 
-## Install
+## Develop
 
-Use the generated installer (no admin rights):
-
-```text
-dist/GoTVET-Setup-1.2.0.exe
+```powershell
+dotnet run --project src/GoTVET.Web/GoTVET.Web.csproj
+dotnet run --project src/GoTVET/GoTVET.csproj
 ```
 
-After setup, start **GoTVET**. The desktop window and the localhost website open together. Closing the app also stops the local site.
+Refresh the public catalogue JSON:
+
+```powershell
+dotnet run --project src/GoTVET.Web/GoTVET.Web.csproj --no-launch-profile -- --export-offerings docs/data/offerings.json
+```
+
+```text
+src/
+├── GoTVET/          Windows WPF client
+└── GoTVET.Web/      Razor catalogue + download API
+docs/                Public website (GitHub Pages)
+```
 
 ---
 

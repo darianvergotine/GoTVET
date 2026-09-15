@@ -1,0 +1,2371 @@
+{
+  "firstYear": 2011,
+  "lastYear": 2026,
+  "levels": [
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "sessions": [
+    "February",
+    "November"
+  ],
+  "documentTypes": [
+    "Question Paper",
+    "Memorandum"
+  ],
+  "offerings": [
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L2",
+      "subject": "English First Additional Language",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L2",
+      "subject": "Afrikaans First Additional Language",
+      "field": "Fundamental",
+      "language": "Afrikaans"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L2",
+      "subject": "IsiXhosa First Additional Language",
+      "field": "Fundamental",
+      "language": "IsiXhosa"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L2",
+      "subject": "Life Orientation",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L2",
+      "subject": "Mathematics",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L2",
+      "subject": "Mathematical Literacy",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L3",
+      "subject": "English First Additional Language",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L3",
+      "subject": "Afrikaans First Additional Language",
+      "field": "Fundamental",
+      "language": "Afrikaans"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L3",
+      "subject": "IsiXhosa First Additional Language",
+      "field": "Fundamental",
+      "language": "IsiXhosa"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L3",
+      "subject": "Life Orientation",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L3",
+      "subject": "Mathematics",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L3",
+      "subject": "Mathematical Literacy",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L4",
+      "subject": "English First Additional Language",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L4",
+      "subject": "Afrikaans First Additional Language",
+      "field": "Fundamental",
+      "language": "Afrikaans"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L4",
+      "subject": "IsiXhosa First Additional Language",
+      "field": "Fundamental",
+      "language": "IsiXhosa"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L4",
+      "subject": "Life Orientation",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L4",
+      "subject": "Mathematics",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "NC(V) Fundamentals",
+      "level": "L4",
+      "subject": "Mathematical Literacy",
+      "field": "Fundamental",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L2",
+      "subject": "Construction Planning",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L2",
+      "subject": "Materials",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L3",
+      "subject": "Construction Planning",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L3",
+      "subject": "Materials",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L4",
+      "subject": "Construction Planning",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L4",
+      "subject": "Materials",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L2",
+      "subject": "Plant and Equipment",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L3",
+      "subject": "Plant and Equipment",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L4",
+      "subject": "Construction Supervision",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L2",
+      "subject": "Carpentry and Roof Work",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L2",
+      "subject": "Concrete Structures",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L2",
+      "subject": "Masonry",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L2",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L2",
+      "subject": "Plumbing",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L2",
+      "subject": "Roads",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L3",
+      "subject": "Carpentry and Roof Work",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L3",
+      "subject": "Concrete Structures",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L3",
+      "subject": "Masonry",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L3",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L3",
+      "subject": "Plumbing",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L3",
+      "subject": "Roads",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L4",
+      "subject": "Carpentry and Roof Work",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L4",
+      "subject": "Concrete Structures",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L4",
+      "subject": "Masonry",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L4",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L4",
+      "subject": "Plumbing",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Civil Engineering and Building Construction",
+      "level": "L4",
+      "subject": "Roads",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L2",
+      "subject": "Architectural Graphics and Technology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L2",
+      "subject": "Civil and Structural Steelwork Detailing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L3",
+      "subject": "Architectural Graphics and Technology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L3",
+      "subject": "Civil and Structural Steelwork Detailing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L4",
+      "subject": "Architectural Graphics and Technology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L4",
+      "subject": "Civil and Structural Steelwork Detailing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L2",
+      "subject": "Engineering Graphics and Technology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L3",
+      "subject": "Engineering Graphics and Design",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L4",
+      "subject": "Mechanical Draughting and Technology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L2",
+      "subject": "Drawing Office Procedures and Techniques",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L3",
+      "subject": "Drawing Office Procedures and Techniques",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Drawing Office Practice",
+      "level": "L4",
+      "subject": "Drawing Office Procedures and Techniques",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L2",
+      "subject": "Art and Science of Teaching",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L2",
+      "subject": "Human and Social Development",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L2",
+      "subject": "Learning Psychology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L3",
+      "subject": "Art and Science of Teaching",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L3",
+      "subject": "Human and Social Development",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L3",
+      "subject": "Learning Psychology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L4",
+      "subject": "Art and Science of Teaching",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L4",
+      "subject": "Human and Social Development",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L4",
+      "subject": "Learning Psychology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L2",
+      "subject": "Early Childhood Development",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L3",
+      "subject": "Early Childhood Development",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Education and Development",
+      "level": "L4",
+      "subject": "Early Childhood Development",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L2",
+      "subject": "Electrical Principles and Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L2",
+      "subject": "Electronic Control and Digital Electronics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L3",
+      "subject": "Electrical Principles and Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L3",
+      "subject": "Electronic Control and Digital Electronics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L4",
+      "subject": "Electrical Principles and Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L4",
+      "subject": "Electronic Control and Digital Electronics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L2",
+      "subject": "Workshop Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L3",
+      "subject": "Electrical Workmanship",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L4",
+      "subject": "Electrical Workmanship",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L2",
+      "subject": "Electrical Systems and Construction",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L2",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L2",
+      "subject": "Renewable Energy Technologies",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L3",
+      "subject": "Electrical Systems and Construction",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L3",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L3",
+      "subject": "Renewable Energy Technologies",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L4",
+      "subject": "Electrical Systems and Construction",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L4",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Electrical Infrastructure Construction",
+      "level": "L4",
+      "subject": "Renewable Energy Technologies",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L2",
+      "subject": "Engineering Fundamentals",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L2",
+      "subject": "Engineering Systems",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L2",
+      "subject": "Engineering Technology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L3",
+      "subject": "Engineering Practice and Maintenance",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L3",
+      "subject": "Engineering Graphics and Design",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L3",
+      "subject": "Materials Technology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L4",
+      "subject": "Engineering Processes",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L4",
+      "subject": "Applied Engineering Technology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L4",
+      "subject": "Professional Engineering Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L2",
+      "subject": "Automotive Repair and Maintenance",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L2",
+      "subject": "Engineering Fabrication",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L2",
+      "subject": "Fitting and Turning",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L2",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L2",
+      "subject": "Refrigeration Principles",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L2",
+      "subject": "Welding",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L3",
+      "subject": "Automotive Repair and Maintenance",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L3",
+      "subject": "Engineering Fabrication - Boiler Making",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L3",
+      "subject": "Engineering Fabrication - Sheet Metal Work",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L3",
+      "subject": "Fitting and Turning",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L3",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L3",
+      "subject": "Refrigeration Practice",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L3",
+      "subject": "Welding",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L4",
+      "subject": "Automotive Repair and Maintenance",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L4",
+      "subject": "Engineering Fabrication - Boiler Making",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L4",
+      "subject": "Engineering Fabrication - Sheet Metal Work",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L4",
+      "subject": "Fitting and Turning",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L4",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L4",
+      "subject": "Refrigeration and Air-conditioning Processes",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Engineering and Related Design",
+      "level": "L4",
+      "subject": "Welding",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L2",
+      "subject": "Applied Accounting",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L2",
+      "subject": "Economic Environment",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L2",
+      "subject": "Financial Management",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L3",
+      "subject": "Applied Accounting",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L3",
+      "subject": "Economic Environment",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L3",
+      "subject": "Financial Management",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L4",
+      "subject": "Applied Accounting",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L4",
+      "subject": "Economic Environment",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L4",
+      "subject": "Financial Management",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L2",
+      "subject": "New Venture Creation",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L3",
+      "subject": "New Venture Creation",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Finance, Economics and Accounting",
+      "level": "L4",
+      "subject": "New Venture Creation",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L2",
+      "subject": "Client Services and Human Relations",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L2",
+      "subject": "Food Preparation",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L2",
+      "subject": "Hospitality Generics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L3",
+      "subject": "Client Services and Human Relations",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L3",
+      "subject": "Food Preparation",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L3",
+      "subject": "Hospitality Generics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L4",
+      "subject": "Client Services and Human Relations",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L4",
+      "subject": "Food Preparation",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L4",
+      "subject": "Hospitality Generics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L2",
+      "subject": "Hospitality Services",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L3",
+      "subject": "Hospitality Services",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Hospitality",
+      "level": "L4",
+      "subject": "Hospitality Services",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L2",
+      "subject": "Electronics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L2",
+      "subject": "Introduction to Information Systems",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L2",
+      "subject": "Introduction to Systems Development",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L3",
+      "subject": "Computer Hardware and Software",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L3",
+      "subject": "Systems Analysis and Design",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L3",
+      "subject": "Principles of Computer Programming",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L4",
+      "subject": "Data Communication and Networking",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L4",
+      "subject": "Systems Analysis and Design",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L4",
+      "subject": "Computer Programming",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L2",
+      "subject": "Contact Centre Operations",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L2",
+      "subject": "Multimedia Basics",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L3",
+      "subject": "Contact Centre Operations",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L3",
+      "subject": "Multimedia Basics",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L4",
+      "subject": "Contact Centre Operations",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Software Design and Development)",
+      "level": "L4",
+      "subject": "Multimedia Basics",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L2",
+      "subject": "Electronics and Digital Concepts for Robotics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L2",
+      "subject": "Robotics Fundamentals",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L2",
+      "subject": "Basic Principles of Computer Programming and Computer Literacy",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L3",
+      "subject": "Electronics and Digital Concepts for Robotics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L3",
+      "subject": "Introduction to Robotics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L3",
+      "subject": "Introduction to Technical Programming",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L4",
+      "subject": "Electronics and Digital Concepts for Robotics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L4",
+      "subject": "Robotics and Industrial Automation",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L4",
+      "subject": "Technical Programming",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L2",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L2",
+      "subject": "Engineering Graphics and Technology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L2",
+      "subject": "Electrotechnology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L2",
+      "subject": "Mechatronic Systems",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L2",
+      "subject": "Instrumentation Technology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L3",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L3",
+      "subject": "Engineering Graphics and Design",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L3",
+      "subject": "Electrotechnology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L3",
+      "subject": "Mechatronic Systems",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L3",
+      "subject": "Instrumentation Technology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L4",
+      "subject": "Physical Science",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L4",
+      "subject": "Mechanical Draughting and Technology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L4",
+      "subject": "Electrotechnology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L4",
+      "subject": "Mechatronic Systems",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Information Technology and Computer Science (Programming and Robotics)",
+      "level": "L4",
+      "subject": "Instrumentation Technology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L2",
+      "subject": "Financial Management",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L2",
+      "subject": "Management Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L2",
+      "subject": "Operations Management",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L3",
+      "subject": "Financial Management",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L3",
+      "subject": "Management Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L3",
+      "subject": "Operations Management",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L4",
+      "subject": "Financial Management",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L4",
+      "subject": "Management Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L4",
+      "subject": "Operations Management",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L2",
+      "subject": "Entrepreneurship",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L3",
+      "subject": "Project Management",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Management",
+      "level": "L4",
+      "subject": "Project Management",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L2",
+      "subject": "Advertising and Promotions",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L2",
+      "subject": "Marketing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L2",
+      "subject": "Marketing Communication",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L3",
+      "subject": "Advertising and Promotions",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L3",
+      "subject": "Marketing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L3",
+      "subject": "Marketing Communication",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L4",
+      "subject": "Advertising and Promotions",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L4",
+      "subject": "Marketing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L4",
+      "subject": "Marketing Communication",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L2",
+      "subject": "Consumer Behaviour",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L2",
+      "subject": "Contact Centre Operations",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L2",
+      "subject": "Graphic Design",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L2",
+      "subject": "Wholesale and Retail",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L3",
+      "subject": "Consumer Behaviour",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L3",
+      "subject": "Contact Centre Operations",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L3",
+      "subject": "Graphic Design",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L3",
+      "subject": "Wholesale and Retail",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L4",
+      "subject": "Consumer Behaviour",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L4",
+      "subject": "Contact Centre Operations",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L4",
+      "subject": "Graphic Design",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Marketing",
+      "level": "L4",
+      "subject": "Wholesale and Retail",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L2",
+      "subject": "Electrotechnology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L3",
+      "subject": "Electrotechnology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L4",
+      "subject": "Electrotechnology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L2",
+      "subject": "Introduction to Computers",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L2",
+      "subject": "Manual Manufacturing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L3",
+      "subject": "Stored Programme Systems",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L3",
+      "subject": "Machine Manufacturing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L4",
+      "subject": "Stored Programme Systems",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L4",
+      "subject": "Computer-Integrated Manufacturing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L2",
+      "subject": "Mechatronic Systems",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L3",
+      "subject": "Mechatronic Systems",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Mechatronics",
+      "level": "L4",
+      "subject": "Mechatronic Systems",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L2",
+      "subject": "Business Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L2",
+      "subject": "Office Data Processing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L2",
+      "subject": "Office Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L3",
+      "subject": "Business Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L3",
+      "subject": "Office Data Processing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L3",
+      "subject": "Office Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L4",
+      "subject": "Business Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L4",
+      "subject": "Office Data Processing",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L4",
+      "subject": "Office Practice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L2",
+      "subject": "Second Language",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L2",
+      "subject": "Applied Accounting",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L2",
+      "subject": "New Venture Creation",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L3",
+      "subject": "Second Language",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L3",
+      "subject": "Applied Accounting",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L3",
+      "subject": "New Venture Creation",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L4",
+      "subject": "Second Language",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L4",
+      "subject": "Applied Accounting",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L4",
+      "subject": "New Venture Creation",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Office Administration",
+      "level": "L4",
+      "subject": "Personal Assistance",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L2",
+      "subject": "Animal Production",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L3",
+      "subject": "Animal Production",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L4",
+      "subject": "Animal Production",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L2",
+      "subject": "Plant Production",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L2",
+      "subject": "Soil Science",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L3",
+      "subject": "Plant Production",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L3",
+      "subject": "Soil Science",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L4",
+      "subject": "Advanced Plant Production",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L4",
+      "subject": "Farm Planning and Mechanisation",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L2",
+      "subject": "Agri-business",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L3",
+      "subject": "Agri-business",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Agriculture",
+      "level": "L4",
+      "subject": "Agri-business",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L2",
+      "subject": "Public Health",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L2",
+      "subject": "The Human Body and Mind",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L2",
+      "subject": "The South African Health Care System",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L3",
+      "subject": "Public Health",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L3",
+      "subject": "The Human Body and Mind",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L3",
+      "subject": "The South African Health Care System",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L4",
+      "subject": "Public Health",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L4",
+      "subject": "The Human Body and Mind",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L4",
+      "subject": "The South African Health Care System",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L2",
+      "subject": "Community Oriented Primary Care",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L3",
+      "subject": "Community Oriented Primary Care",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Primary Health",
+      "level": "L4",
+      "subject": "Community Oriented Primary Care",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L2",
+      "subject": "Electronic Control and Digital Electronics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L2",
+      "subject": "Physical Science",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L3",
+      "subject": "Electronic Control and Digital Electronics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L3",
+      "subject": "Physical Science",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L4",
+      "subject": "Electronic Control and Digital Electronics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L4",
+      "subject": "Physical Science",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L2",
+      "subject": "Engineering Fundamentals",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L3",
+      "subject": "Engineering Practice and Maintenance",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L4",
+      "subject": "Engineering Processes",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L2",
+      "subject": "Instrumentation Technology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L3",
+      "subject": "Instrumentation Technology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Process Instrumentation",
+      "level": "L4",
+      "subject": "Instrumentation Technology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L2",
+      "subject": "Physical Science",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L2",
+      "subject": "Process Technology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L3",
+      "subject": "Physical Science",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L3",
+      "subject": "Process Technology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L4",
+      "subject": "Physical Science",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L4",
+      "subject": "Process Technology",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L2",
+      "subject": "Engineering Fundamentals",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L3",
+      "subject": "Process Control",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L4",
+      "subject": "Process Control",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L2",
+      "subject": "Process Chemistry",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L2",
+      "subject": "Pulp and Papermaking Technology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L3",
+      "subject": "Process Chemistry",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L3",
+      "subject": "Pulp and Papermaking Technology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L4",
+      "subject": "Process Chemistry",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Process Plant Operations",
+      "level": "L4",
+      "subject": "Pulp and Papermaking Technology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L2",
+      "subject": "Introduction to Governance",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L2",
+      "subject": "Introduction to Law",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L2",
+      "subject": "Principles of Criminal Justice",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L3",
+      "subject": "Governance",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L3",
+      "subject": "Criminal Law",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L3",
+      "subject": "Criminal Justice Structures and Mandates",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L4",
+      "subject": "Governance",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L4",
+      "subject": "Law of Procedures and Evidence",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L4",
+      "subject": "Criminal Justice Process",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L2",
+      "subject": "Criminology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L3",
+      "subject": "Criminology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L4",
+      "subject": "Criminology",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L2",
+      "subject": "Introduction to Policing Practices",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L3",
+      "subject": "Theory of Policing Practices",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Safety in Society",
+      "level": "L4",
+      "subject": "Applied Policing",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L2",
+      "subject": "Client Services and Human Relations",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L2",
+      "subject": "Science of Tourism",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L3",
+      "subject": "Client Services and Human Relations",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L3",
+      "subject": "Science of Tourism",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L4",
+      "subject": "Client Services and Human Relations",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L4",
+      "subject": "Science of Tourism",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L2",
+      "subject": "Sustainable Tourism in SA",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L3",
+      "subject": "Sustainable Tourism in SA and Regional Travel",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L4",
+      "subject": "Sustainable Tourism in SA and International Travel",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L2",
+      "subject": "Tourism Operations",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L3",
+      "subject": "Tourism Operations",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Tourism",
+      "level": "L4",
+      "subject": "Tourism Operations",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L2",
+      "subject": "Freight Logistics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L2",
+      "subject": "Transport Economics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L2",
+      "subject": "Transport Operations",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L3",
+      "subject": "Freight Logistics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L3",
+      "subject": "Transport Economics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L3",
+      "subject": "Transport Operations",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L4",
+      "subject": "Freight Logistics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L4",
+      "subject": "Transport Economics",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L4",
+      "subject": "Transport Operations",
+      "field": "Core",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L2",
+      "subject": "Entrepreneurship",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L2",
+      "subject": "New Venture Creation",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L3",
+      "subject": "Project Management",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L3",
+      "subject": "New Venture Creation",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L4",
+      "subject": "Project Management",
+      "field": "Optional",
+      "language": "English"
+    },
+    {
+      "programme": "Transport and Logistics",
+      "level": "L4",
+      "subject": "New Venture Creation",
+      "field": "Optional",
+      "language": "English"
+    }
+  ]
+}

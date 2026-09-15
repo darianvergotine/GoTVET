@@ -6,3 +6,4 @@ obj/
 src/GoTVET.Web/storage/
 artifacts/
 installer/.tools/
+dist/*.exe
