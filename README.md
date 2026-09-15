@@ -42,28 +42,6 @@ The public site is always on at **[darianvergotine.github.io/GoTVET](https://dar
 
 ---
 
-## Develop
-
-```powershell
-dotnet run --project src/GoTVET.Web/GoTVET.Web.csproj
-dotnet run --project src/GoTVET/GoTVET.csproj
-```
-
-Refresh the public catalogue JSON:
-
-```powershell
-dotnet run --project src/GoTVET.Web/GoTVET.Web.csproj --no-launch-profile -- --export-offerings docs/data/offerings.json
-```
-
-```text
-src/
-├── GoTVET/          Windows WPF client
-└── GoTVET.Web/      Razor catalogue + download API
-docs/                Public website (GitHub Pages)
-```
-
----
-
 <div align="center">
 
 **Created by Darian Vergotine**
