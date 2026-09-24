@@ -22,19 +22,31 @@
     </section>
     <section class="section">
       <div class="container">
-        <form class="filters" id="filters" method="get">
-          <label>Search <input type="search" name="q" placeholder="Mathematics, Hospitality, Robotics…" /></label>
-          <label>Programme <select id="programme" name="programme"></select></label>
-          <label>Subject <select id="subject" name="subject"></select></label>
-          <label>Level <select id="level" name="level"></select></label>
-          <label>Year <select id="year" name="year"></select></label>
-          <label>Session <select id="session" name="session"></select></label>
-          <label>Type <select id="type" name="type"></select></label>
-          <button class="button primary" type="submit">Apply</button>
-        </form>
+        <div class="filter-panel">
+          <div class="filter-panel-head">
+            <h2>Filters</h2>
+            <p>All fields optional — leave blank to browse everything.</p>
+          </div>
+          <form class="filters" id="filters" method="get">
+            <label class="filter-search">Search
+              <input type="search" name="q" placeholder="Mathematics, Hospitality, Robotics…" autocomplete="off" />
+            </label>
+            <div class="filter-fields">
+              <label>Programme <select id="programme" name="programme"></select></label>
+              <label>Subject <select id="subject" name="subject"></select></label>
+              <label>Level <select id="level" name="level"></select></label>
+              <label>Year <select id="year" name="year"></select></label>
+              <label>Session <select id="session" name="session"></select></label>
+              <label>Type <select id="type" name="type"></select></label>
+            </div>
+            <div class="filter-actions">
+              <button class="button primary" type="submit">Apply</button>
+            </div>
+          </form>
+        </div>
         <p class="result-count" id="result-count">Loading papers…</p>
         <div class="paper-list" id="paper-list"></div>
-        <nav class="pager" id="pager"></nav>
+        <nav class="pager" id="pager" aria-label="Paper results pages"></nav>
       </div>
     </section>
   </main>
